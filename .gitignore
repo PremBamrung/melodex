@@ -1,0 +1,70 @@
+# Large data directories
+data/
+training_outputs/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Model checkpoints and large files
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+
+# Environment and virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# OS files
+Thumbs.db
+.DS_Store
+*.bak
+
+# Output files (can regenerate)
+*.png
+*.jpg
+*.jpeg
+*.html
+*.json
+*.jsonl
+*.csv
+results*.json
+results*.jsonl
+results*.csv
+matched_songs.csv
+List_of_songs_by_Taylor_Swift.csv
+
+# TensorBoard logs
+tb_logs/
+
+# Sample directories (if large)
+# Uncomment if samples directory is large
+samples/
+
